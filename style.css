@@ -50,7 +50,14 @@
     margin: 0 15px;
   }
   .my-logo{
+    margin-right: 70rem;
   
+  }
+  .nav-bar:hover{
+    background-color: rgb(92, 184, 92);
+    border-radius: 10rem;
+    padding: 10px;
+    font-weight: 900px;
   }
 
 
@@ -62,5 +69,6 @@
     max-width: 35%;
   }
   .img-1{
-    max-width: 10%;
+    max-width: 100%;
+    height: auto;
   }
