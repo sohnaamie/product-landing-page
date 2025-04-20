@@ -5,25 +5,29 @@
   }
 
   body{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.3);
     
   }
 
   section{
+    margin-top: 40px;
     align-items: center;
     text-align: center;
     
   }
 
   .header-section{
-   background-color: rgb(14, 44, 26);
+   background-color: rgb(14, 40, 25);
    display: flex;
    justify-content: space-around;
    align-items: center;
    padding: 10px 20px;
    max-width: 100%;
    height: auto;
-   
-
   }
 
   .nav-inks{
@@ -39,9 +43,7 @@
     display: inline;
     justify-content: center;
     gap: 2rem;
-    flex-direction: row;
-    
-    
+    flex-direction: row;  
   }
 
   .nav{
@@ -49,8 +51,12 @@
     display: inline;
     margin: 0 15px;
   }
+
   .my-logo{
     margin-right: 70rem;
+    margin-top: 1em;
+    max-width: 5%;
+    height: auto;
   
   }
   .nav-bar:hover{
@@ -61,6 +67,29 @@
   }
 
 
+  .image{
+    margin: 2em 0;
+  }
+  .img-2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+  }
+
+  h1, h2, p{
+    padding: 0.5em;
+    line-height: 0.5em;
+  }
+  h2{
+    margin: 2em 0;
+  }
+  .testimonial-h2{
+    margin-bottom: 1em;
+  }
+  h3{
+    margin: 1.5em 0em;
+  }
+
   img{
     max-width: 100%;
     height: auto;
@@ -68,7 +97,61 @@
   .img-2, .img-3, .img-4, .img-5{
     max-width: 35%;
   }
-  .img-1{
-    max-width: 100%;
-    height: auto;
+ 
+
+  .btn-1{
+    border-radius: 20px;
+    padding: 1em 1em 1em 1em;
+    border: none;
+    color: white;
+    background-color:rgb(253, 142, 160);
   }
+
+  .btn-1:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+  }
+
+  
+
+  .testimonila-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-card{
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-style: italic;
+  max-width: 50%;
+  margin-left: 20em;
+  background-color: rgb(243, 137, 154);
+  color: white;
+ 
+  }
+
+  .btn-2{
+    margin-top: 1em;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(249, 134, 153);
+    padding: 1em 1em 1em 1em;
+    margin-left: 1.5em;
+  }
+
+  .btn-2:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+
+  }
+
+  .footer{
+    text-align: center;
+    margin-top: 1em;
+  }
+
+ 
+  
