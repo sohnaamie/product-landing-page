@@ -67,10 +67,7 @@
      opacity: 1;
   }
 
-  .img-2, .img-3, .img-5 {
-    max-width: 100%;
-  }
-
+  
   /* Testimonials grid  */
    .testimonila-grid {
     grid-template-columns: 1fr ;
@@ -102,6 +99,11 @@
   } 
    .feature-section p{
     line-height: 1.5;
+   }
+
+   .section-features-2{
+    display: flex;
+    gap: 20px;
    }
 
   .sign-up-section {
@@ -209,18 +211,44 @@
   .section-features{
     display: flex;
     justify-content: space-around;
-    align-items: center;gap: 20px;
+    align-items: center;
+    gap: 20px;
 
   }
   .feature-section .img-5{
     max-width: 25%;
   }
+
+  .feature-2-2-image, .img-1-0{
+    max-width: 35%;
+  }
+
+  .img-9{
+    max-width: 30%;
+  }
+
+ 
+  
+  .section-features-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .feature-2-image{
+    margin-right: 4em;
+  }
+
+  .feature-2-2-image{
+    margin-right: 10em;
+  }
   
   
 
 
 
-  h1, h2, p{
+  h1, h2{
     padding: 0.5em;
     line-height: 0.5em;
   }
@@ -230,9 +258,9 @@
   .testimonial-h2{
     margin-bottom: 1em;
   }
-  h3{
-    
-  }
+
+  
+ 
 
   img{
     max-width: 100%;
