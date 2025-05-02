@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organic Skincare set</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,19 +15,27 @@
 <body>
     <!-- header-section -->
      <div class="header-section">
-    <header>
+    <header class="header">
         <div class="my-logo">
-            <a href="#logo"><img src="./assets/image.png" alt=" my-logo" class="img-1" loading="lazy"></a>
+            <a href="#logo"><img src="./assets/image.png" alt=" my-logo" class="logo" loading="lazy"></a>
         </div>
+        <span class="menu">menu</span> 
+    </header>
+
+
+    <div class="nav-section">
+    <nav>
+       
         <div class="nav-inks">
             <ul class="nav">
-                <li class="nav"><a href="#hero" class="nav-bar">Hero</a></li>
+                <li class="nav"><a href="#hero" class="nav-bar nav-first">Hero</a></li>
                 <li class="nav"><a href="#features" class="nav-bar">Features</a></li>
                 <li class="nav"><a href="#testimonials"class="nav-bar">Testimonials</a></li>
-                <li class="nav"><a href="#sign-up"class="nav-bar">Sign-up</a></li>
+                <li class="nav"><a href="#sign-up"class="nav-bar nav-last">Sign-up</a></li>
             </ul>
         </div>
-    </header>
+    </nav>
+</div>
 </div>
 <!-- header section ends -->
 
@@ -36,12 +45,12 @@
 <!-- hero-section starts -->
  <section class="hero-section " id="hero">
     
-    <h1>Glow Naturally with Our Organic Skincare Set</h1>
-    <p>100% organic, cruelty-free, and hypoallergenic for all skin types.</p>
-    <img src="./assets/group-pic.jpg" alt="the fullset package" class="img-2" loading="lazy">
+    <h1 class="hero-h1">Glow Naturally with Our <span class="break">Organic Skincare Set</span></h1>
+    <p class="hero-paragraph">100% organic, cruelty-free, and hypoallergenic <span class="break">for all skin types.</span></p>
+    <img src="./assets/group-pic.jpg" alt="the fullset package" class="full-set" loading="lazy">
    
-   <div class="btn">
-    <button class="btn-1">shop now</button>
+   <div class="shop">
+    <button class="shop-btn">shop now</button>
    </div>
  </section>
  <!-- hero-section ends -->
@@ -51,7 +60,7 @@
     <h2>Our key features</h2>
     <div class="section-features">
     <div class="feature-1-image ">
-        <img src="./assets/tumeric.jpg" alt="the face mist" class="img-3" loading="lazy">
+        <img src="./assets/tumeric.jpg" alt="the face tumeric" class="tumeric" loading="lazy">
      <h3>No Artificial Fragrances</h3>
      <p>Our skincare products are free from harmful synthetic fragrances.</p>
     </div>
@@ -59,7 +68,7 @@
    
 
     <div class="feature-3-image ">
-        <img src="./assets/oil.jpg" alt=" the oil" class="img-5" loading="lazy">
+        <img src="./assets/oil.jpg" alt=" the oil" class="ointment" loading="lazy">
         <h3>Hypoallergenic</h3>
         <p>Our products are safe and gentle for all skin types, even the most sensitive ones.</p>
     </div>
@@ -67,13 +76,13 @@
 
 <div class="section-features-2">
       <div class="feature-2-image ">
-        <img src="./assets/body-cream.jpg" alt="the body cream" class="img-9" loading="lazy">
+        <img src="./assets/body-cream.jpg" alt="the body cream" class="cream" loading="lazy">
         <h3>Cruelty-Free</h3>
         <p>We never test on animals—just real, happy customers.</p>
     </div> 
 
     <div class="feature-2-2-image">
-        <img src="./assets/face mist.jpg" alt="this is the face mist" class="img-1-0" loading="lazy">
+        <img src="./assets/face mist.jpg" alt="this is the face mist" class="face-mist" loading="lazy">
         <h3>Calm & Premium Vibe :) </h3>
         <p>Your skin deserves more than just care, it deserves a ritual. Glow begins here.</p>
     </div>
@@ -111,7 +120,9 @@
     <section class="sign-up-section" id="sign-up">
        <h1> Subscribe & Save 10%</h1>
         <p>Get your Organic Skincare Set delivered every month.</p>
-        <button class="btn-2">Subscribe Now</button>
+        <div class="subscribe">
+        <button class="subscribe-btn">Subscribe Now</button>
+    </div>
 
     </section>
     <!-- sign-up section ends -->

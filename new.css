@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+ 
+img{
+    max-width: 100%;
+    height: auto;
+}
+.logo{
+    width: 50px;
+  
+}
+
+.header{
+    display: flex;
+}
+.menu{
+    margin-left: auto;
+}
+
+.nav-bar{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.nav-first{
+    padding-top: 1em;
+}
+
+.nav-last{
+    padding-bottom: 1em;
+}
+
+
+
+.nav{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+   
+}
+    
+
+.break{
+    display: block;
+}
+
+.nav-section{
+    margin-top: 2em;
+    background-color: pink;
+}
+
+.full-set{
+    width: 500px;
+    margin-bottom: 1em;
+}
+
+.shop{
+    align-items: center;
+    margin-left: 8em;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+.shop-btn{
+    border-radius: 20px;
+    padding: .5em 1.5em .5em 1.5em;
+    border: none;
+    color: white;
+    background-color:rgb(249, 176, 187);
+}
+
+
+
+
+
+.ointment .cream .face-mist .tumeric{
+    width: 450px;
+}
+
+
+.subscribe{
+    align-items: center;
+    margin-left: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em; 
+}
+
+.subscribe-btn{
+    border-radius: 20px;
+    padding: .5em 1.5em .5em 1.5em;
+    border: none;
+    color: white;
+    background-color:rgb(249, 176, 187);
+
+}
+
+.footer{
+    background-color: pink;
+    color: white;
+    padding: 1.5em;
+    margin-top: 1em;
+    margin-bottom:1em;
+}
+
