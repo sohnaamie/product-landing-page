@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    font-style: Roboto, sans-serif;
+    background-color: antiquewhite;
+     
+}
  
 img{
     max-width: 100%;
