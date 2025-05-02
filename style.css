@@ -11,52 +11,33 @@
 
   body{
    background-color: antiquewhite;
+   width: 100%;
+   overflow-x: hidden;
+   height: 100vh;
    
     
   }
 
   section{
-    margin-top: 40px;
+    /* margin-top: 40px; */
     align-items: center;
     text-align: center;
     
   }
 
-  .header-section{
-   background-color: rgb(244, 183, 193);
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   padding: 10px 20px;
-   max-width: 100%;
-   height: auto;
-   margin-top: 0;
-   
+  .header{
+    display: flex;
   }
+  
 
-  .nav-inks{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    
-  }
+  
 
-  .nav-bar{
-    color: white;
-    text-decoration: none;
-    display: inline;
-    justify-content: center;
-    gap: 2rem;
-    flex-direction: row;  
-   ;
-  }
+  .menu{
+    margin-left: auto;
+    margin-right: .5em;
+}
 
-  .nav{
-    list-style-type: none;
-    display: inline;
-    margin: 0 15px;
-    margin-left: 5rem
-  }
+  
 
   .my-logo{
     margin-right: 70rem;
@@ -66,32 +47,49 @@
   
   }
   .nav-bar:hover{
-    background-color: palevioletred;
-    border-radius: 10rem;
-    padding: 10px;
-    font-weight: 900px;
+    background-color: rgb(241, 136, 154);
+    border-radius: 5em;
+    padding: .5em 1em .5em 1em;
+  }
+  
+
+  .full-set{
+    margin-top: 1em;
+    width: 500px;
   }
 
-
-  .image{
-    margin: 2em 0;
+  .tumeric , .ointment , .cream , .face-mist{
+    width: 500px;
   }
-  .img-2{
-    margin-top: 2em;
-    margin-bottom: 2em;
+  .ointment, .face-mist  {
+    height: 520px;
+    overflow-x: hidden;
+    margin-right: 5em;
     
   }
-  .img-3{
-    max-width: 45%;
-  }
 
-  
-  
-    
-  
-  h3{
+  .face-mist, .cream{
+    height: 520px;
     margin-top: 1em;
   }
+
+
+  .feature-h2, .feature-p, .feature-h3 , .testimonial-h2 ,.caption , .subscribe-h1 , .subscribe-p{
+    margin-left: 10em;
+  }
+
+  .feature-h2{
+    margin-bottom: 2em;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+    
+  
+  
  
   .feature-section p{
     margin-bottom: .5em;
@@ -136,21 +134,6 @@
   
 
 
-
-  h1, h2{
-    padding: 0.5em;
-    line-height: 0.5em;
-  }
-  h2{
-    margin: 2em 0;
-  }
-  .testimonial-h2{
-    margin-bottom: 1em;
-  }
-
-  
- 
-
   img{
     max-width: 100%;
     height: auto;
@@ -161,7 +144,7 @@
   
  
 
-  .btn-1{
+  .shop-bt{
     border-radius: 20px;
     padding: 1em 1em 1em 1em;
     border: none;
@@ -169,7 +152,7 @@
     background-color:rgb(253, 142, 160);
   }
 
-  .btn-1:hover{
+  .shop-bt:hover{
     cursor: pointer;
     background-color: palevioletred;
   }
@@ -190,19 +173,27 @@
   background-color: rgb(243, 137, 154);
   color: white;
  
+  margin-left: 22em;
   }
 
-  .btn-2{
+  .subscribe-btn{
     margin-top: 1em;
     border: none;
     border-radius: 20px;
     color: white;
     background-color: rgb(249, 134, 153);
     /* padding: ; */
-    margin-left: 1em;
+    margin-right: 15em;
   }
 
-  .btn-2:hover{
+  .subscribe-p {
+    margin-left: 6em;
+  }
+  .subscribe-h1{
+   margin-right: 8em;
+  }
+
+  .subscribe-btn:hover{
     cursor: pointer;
     background-color: palevioletred;
 
@@ -215,6 +206,7 @@
     padding: 2em;
     margin-top: 1.5em;
     color: white;
+    margin-right: 4em;
   }
 
   .footer{
