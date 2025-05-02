@@ -95,7 +95,7 @@ img{
 }
 
 
-.testimonila-grid{
+.testimonial-grid{
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
@@ -192,4 +192,6 @@ img{
    
 
 }
+
+
 
