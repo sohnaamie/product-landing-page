@@ -161,6 +161,16 @@ img{
         justify-content: center;
     }
 
+    .nav-bar{
+        text-decoration: none;
+        color: white;
+        padding: 0.5em;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 1.5em;
+    }
+
     .break{
         display: inline;
     }
@@ -279,6 +289,14 @@ img{
     }
     .caption{
         padding:1.5em .5em 1.5em .5em ;
+    }
+
+    .nav-bar:hover{
+        background-color: rgb(251, 131, 151);
+        border-radius: 10px;
+        cursor: pointer;
+       
+       
     }
 
 
