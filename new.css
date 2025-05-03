@@ -29,8 +29,12 @@ img{
 }
 .menu{
     margin-left: auto;
-    margin-top: 1em;
-    
+margin-top: 1em;
+cursor: pointer;
+padding: .5em;
+background-color: rgb(249, 176, 187);
+color: white;
+border-radius: 5px;
 }
 
 .nav-bar{
@@ -68,7 +72,13 @@ img{
 .nav-section{
     margin-top: 2em;
     background-color: pink;
+    display: none;
 }
+
+.nav-section.show {
+    display: block !important;
+  }
+  
 
 .full-set{
     width: 100%;
@@ -163,6 +173,7 @@ img{
         justify-content: center;
     }
 
+
     .nav-bar{
         text-decoration: none;
         color: white;
@@ -238,6 +249,10 @@ img{
         margin-left: 12em;
     }
 
+    .nav-section{
+        display: block;
+    }
+
     .subscribe{
         margin-left: 20em;
     }
@@ -252,6 +267,9 @@ img{
         max-width: 500px;
         margin-left: 10em;
         overflow-x: hidden;
+    }
+    .nav-section{
+        display: block;
     }
 
     .testimonial-card{
@@ -270,6 +288,9 @@ img{
     img{
         max-width: 100%;
         height: auto;
+    }
+    .nav-section{
+        display: block;
     }
 
     .tumeric , .ointment , .cream , .face-mist{

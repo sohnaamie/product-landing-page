@@ -20,7 +20,7 @@
         <div class="my-logo">
             <a href="#logo"><img src="./assets/image.png" alt=" my-logo" class="logo" loading="lazy"></a>
         </div>
-        <span class="menu">menu</span> 
+        <button class="menu" id="menu-toggle">&#9776;</button>
     </header>
     </section>
 
@@ -138,6 +138,14 @@
         <p>&copy; 2025 Organic Skincare. All Rights Reserved.</p>
     </footer>
     <!-- end of footer section -->
+    <script>
+        const menuBtn = document.querySelector('.menu');
+        const navSection = document.querySelector('.nav-section');
+      
+        menuBtn.addEventListener('click', () => {
+          navSection.classList.toggle('show');
+        });
+      </script>
     
 </body>
 </html>
