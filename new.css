@@ -95,7 +95,7 @@ img{
     background-color: rgb(254, 157, 173);
         color: white;
         border-radius: 2rem;
-        padding: 1.5em;
+        padding: 1em 1.5em 1em 1.5em
 }
 
 
@@ -249,6 +249,38 @@ img{
     .subscribe{
         margin-left: 21em;
     }
+
+}
+
+/* for lager screnn size  */
+
+@media(min-width: 1024px){
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .tumeric , .ointment , .cream , .face-mist{
+        margin-left: 22em;
+    }
+
+    .ointment , .cream , .face-mist{
+        width: 100%;
+        max-width: 500px;
+        height: 500px;
+    }
+
+    .testimonial-card{
+        margin-left: 18em;
+    }
+
+    .subscribe{
+        margin-left: 35em;
+    }
+    .caption{
+        padding:1.5em .5em 1.5em .5em ;
+    }
+
 
 }
 
