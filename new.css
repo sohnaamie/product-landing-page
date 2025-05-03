@@ -20,6 +20,7 @@ img{
 }
 .logo{
     width: 50px;
+    margin-top: 1em;
   
 }
 
@@ -28,6 +29,7 @@ img{
 }
 .menu{
     margin-left: auto;
+    margin-top: 1em;
     
 }
 
