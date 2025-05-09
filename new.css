@@ -293,6 +293,10 @@ border-radius: 5px;
         display: block;
     }
 
+    .menu{
+        display: none;
+    }
+
     .tumeric , .ointment , .cream , .face-mist{
         margin-left: 22em;
     }
